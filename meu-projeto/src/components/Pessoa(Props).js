@@ -1,8 +1,10 @@
+   
+//STRUCT - Pessoa({nome,idade...}) || Pessoa(props) {props.nome...}
 function Pessoa({nome,idade,profissao,foto}) {
     return(
     <div>
         <img src={foto} alt={nome} />
-        <h2>Nome: {nome}</h2>
+        <p>Nome: {nome}</p>
         <p>Idade: {idade}</p>
         <p>Profissão: {profissao}</p>
     </div>
