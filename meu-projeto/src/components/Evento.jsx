@@ -1,6 +1,5 @@
 import Button from "./eventos/Button";
 
-
 function Evento() {
     function meuEvento() {
         console.log(`Ativando priemiro evento`);
