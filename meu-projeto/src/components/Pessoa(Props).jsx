@@ -1,4 +1,5 @@
 //STRUCT - Pessoa({nome,idade...}) || Pessoa(props) {props.nome...}
+
 function Pessoa({nome,idade,profissao,foto}) {
     return(
     <div>

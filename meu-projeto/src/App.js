@@ -1,18 +1,16 @@
 import './App.css';
-import List from './components/List(Fragmentos)';
-import Form from './components/Form(use state hook)';
+import Condicional from './components/Condicional';
+
 
 
 function App() {
 
   return (
     <div className="App">
-    
-      <Form />
-      <List />
-      
-  
+      <h1>Renderização</h1>
+      <Condicional />
 
+  
     </div>
   );
 }

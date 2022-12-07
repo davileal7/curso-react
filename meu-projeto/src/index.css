@@ -13,3 +13,14 @@ p {
   background-color: gray;
   padding: 10px;
 }
+
+input {
+  /*afastar do button*/
+  margin: 10px;
+}
+
+button {
+  color: white;
+  background-color: green;
+  cursor: pointer;
+}
