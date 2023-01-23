@@ -1,25 +1,6 @@
 {
   "projects": [
     {
-      "name": "teste",
-      "budget": "12",
-      "const": 0,
-      "services": [],
-      "id": 1
-    },
-    {
-      "name": "Teste",
-      "budget": "5000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "const": 0,
-      "services": [],
-      "id": 2
-    },
-    
-    {
       "name": "Davi Moreira Leal",
       "budget": "2888",
       "category": {
@@ -29,8 +10,19 @@
       "const": 0,
       "services": [],
       "id": 4
+    },
+    {
+      "name": "Hora de Codar",
+      "budget": "1500",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "const": 0,
+      "services": [],
+      "id": 5
     }
-     ],
+  ],
   "categories": [
     {
       "id": 1,
