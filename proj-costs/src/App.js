@@ -18,12 +18,12 @@ function App() {
       <Navbar />
       <Container customClass="min-height">
         <Routes>
-            <Route exact path="/" element={<Home/>}/>
-            <Route path="/projects" element={<Projects/>}/>
-            <Route path="/contact" element={<Contact/>}/>
-            <Route path="/company" element={<Company/>}/>
-            <Route path="/newproject" element={<NewProject/>}/>
-            <Route path="/project/:id" element={<Project/>}/>
+            <Route exact path="/" element={<Home />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/company" element={<Company />} />
+            <Route path="/newproject" element={<NewProject />} />
+            <Route path="/project/:id" element={<Project />} />
         </Routes>
       </Container>
       <Footer />
