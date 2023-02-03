@@ -1,58 +1,5 @@
 {
-  "projects": [
-    {
-      "name": "Projeto Atualizado",
-      "budget": "2000",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "const": 411,
-      "services": [
-        {
-          "name": "Meu novo serviço",
-          "const": "20000000000",
-          "description": "teste"
-        },
-        {
-          "name": "Meu novo serviço",
-          "const": "151515151515149",
-          "description": "teste"
-        },
-        {
-          "name": "HTML5 e CSS3 ",
-          "const": "100",
-          "description": "teste",
-          "id": "2426585a-a858-4bef-9d18-453ce074ba4f"
-        },
-        {
-          "name": "Python",
-          "const": "100",
-          "description": "teste 1",
-          "id": "b8f0073b-d657-4fef-8f07-df6ceaccf7d6"
-        },
-        {
-          "name": "Python 2",
-          "const": "100",
-          "description": "teste 2",
-          "id": "0d2026ae-dc43-4702-975e-a12c791c4fad"
-        },
-        {
-          "name": "Python 2",
-          "const": "100",
-          "description": "teste 2",
-          "id": "0d2026ae-dc43-4702-975e-a12c791c4fad"
-        },
-        {
-          "name": "novo serviço",
-          "const": "11",
-          "description": "oi",
-          "id": "f1fe814c-2935-4392-a35e-8e7f247d33a7"
-        }
-      ],
-      "id": 5
-    }
-  ],
+  "projects": [],
   "categories": [
     {
       "id": 1,

@@ -31,7 +31,7 @@ function ProjectForm({handleSubmit, btnText, projectData}) {
    }
 
    function handleChange(e) {
-    setProject({ ...project, [e.target.name]:e.target.value})
+    setProject({ ...project, [e.target.name]: e.target.value})
      
    }
 

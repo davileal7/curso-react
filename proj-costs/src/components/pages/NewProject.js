@@ -13,7 +13,7 @@ function NewProject() {
 
     function createPost(project) {
         //initialize
-        project.const = 0
+        project.cost = 0
         project.services = []
 
         fetch("http://localhost:5000/projects", {

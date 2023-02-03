@@ -28,13 +28,13 @@ function ServiceForm({handleSubmit, btnText, projectData}) {
          text="Nome do serviço"
          name="name"
          placeholder="insira o nome do serviço"
-         handleOnChange={handleChange} //mudança de status
+         handleOnChange={handleChange} //mudança de estado
          /> 
           <Input 
          type="number"
          text="Custo do serviço"
-         name="const"
-         placeholder="insira o valor total"
+         name="cost" //
+         placeholder="Insira o valor total"
          handleOnChange={handleChange} //mudança de status
          /> 
           <Input 
