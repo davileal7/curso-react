@@ -31,8 +31,6 @@ function NewProject() {
                 //history.push('/projects', {message: 'Proejeto criado com sucesso!'})
             })
             .catch((err) => console.log(err))
-        
-        
 }
 
  return (
