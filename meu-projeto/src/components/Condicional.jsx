@@ -9,17 +9,14 @@ function Condicional() {
     function enviarEmail(e) {
         e.preventDefault()
         setUserEmail(email)
-        
     }
 
     function limparEmail(e) {
         e.preventDefault()
         setUserEmail('')
-        
     }
 
     return (
-        
         <div>
         <h2>Cadastre seu e-mail:</h2>
         <form>

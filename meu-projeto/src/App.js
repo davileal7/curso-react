@@ -6,18 +6,20 @@ import Contato from './aula15 router/Contato'
 import Navbar from './aula15 router/layout/Navbar'
 import Footer from './aula15 router/layout/Footer'
 
+import  HelloWorld  from './components/HelloWorld'
+import SayMyName from './components/SayMyName'
+import Pessoa from './components/Pessoa(Props)'
+
 function App() {
  
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home/>}/>   
-        <Route path="/empresa" element={<Empresa/>}/>
-        <Route path="/contato" element={<Contato/>}/>   
-      </Routes>
-      <Footer/>
-    </Router>
+    <>
+     
+      <Pessoa
+      nome="Leal"
+      idade="36"
+      estado="Casado"/>
+    </>
   )
 }
 

@@ -1,4 +1,5 @@
 import {useState} from 'react'
+//gerencia o estado de algum valor - getter/setter
 
 function Form() {
     function cadastrarUsuario(e) {
