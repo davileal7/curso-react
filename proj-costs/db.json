@@ -10,6 +10,24 @@
       "cost": 0,
       "services": [],
       "id": 1
+    },
+    {
+      "name": "dadad",
+      "budget": "212222",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 10000,
+      "services": [
+        {
+          "name": "dadad",
+          "cost": "10000",
+          "description": "teste",
+          "id": "bc37d063-b1fc-465c-8a34-fcb36b235094"
+        }
+      ],
+      "id": 2
     }
   ],
   "categories": [
